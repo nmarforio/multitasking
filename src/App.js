@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Calendar/>
+        <h1>hola</h1>
       </header>
     </div>
   );
