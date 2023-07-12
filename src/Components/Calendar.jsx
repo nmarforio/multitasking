@@ -9,6 +9,7 @@ function Calendar() {
 
   function handleClick(e) {
     setDate(e.dateStr);
+    console.log(date)
   }
 
   function renderContent(eventInfo) {

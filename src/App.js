@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import FullCalendar from '@fullcalendar/react';
-import dayGridPlugin from '@fullcalendar/daygrid'
 import Calendar from './Components/Calendar';
-
+import Alarm from './Components/Alarm';
+import PostIt from './Components/PostIt';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Calendar/>
-        <h1>hola</h1>
+        <Alarm/>
+        <PostIt/>
       </header>
     </div>
   );
